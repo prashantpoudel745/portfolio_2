@@ -69,7 +69,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="w-full max-w-sm sm:max-w-md md:max-w-lg mt-12"
           >
-            <Card className="overflow-hidden rounded-lg border shadow-xl">
+            <Card className="overflow-hidden rounded-lg border shadow-xl flex-row">
               <div className="relative aspect-video">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 flex items-center justify-center">
                   <div className="text-center space-y-2">
@@ -77,7 +77,7 @@ export default function Hero() {
                       Currently working on
                     </p>
                     <h3 className="text-xl font-semibold">
-                      Ecommerce Management System
+                      HealthCare Monorepo Project
                     </h3>
                     <Button
                       variant="secondary"

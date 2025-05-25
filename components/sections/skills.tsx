@@ -1,10 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Progress } from "@/components/ui/progress";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import SectionHeading from "@/components/section-heading";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Progress from "../ui/progress";
 
 interface Skill {
   name: string;
@@ -23,7 +23,6 @@ const skillsData: SkillCategory[] = [
       { name: "React/Next.js", level: 95 },
       { name: "TypeScript", level: 90 },
       { name: "Tailwind CSS", level: 85 },
-      // { name: "Vue.js", level: 75 },
       { name: "React Native", level: 80 },
     ],
   },
@@ -34,7 +33,6 @@ const skillsData: SkillCategory[] = [
       { name: "Python", level: 85 },
       { name: "GraphQL", level: 80 },
       { name: "Express", level: 90 },
-      { name: "NestJS", level: 75 },
     ],
   },
   {
@@ -42,7 +40,7 @@ const skillsData: SkillCategory[] = [
     skills: [
       { name: "PostgreSQL", level: 85 },
       { name: "MongoDB", level: 90 },
-      { name: "Redis", level: 70 },
+      { name: "MySql", level: 70 },
       { name: "Firebase", level: 80 },
       { name: "Supabase", level: 85 },
     ],
@@ -53,7 +51,7 @@ const skillsData: SkillCategory[] = [
       { name: "Docker", level: 85 },
       { name: "GitHub Actions", level: 80 },
       { name: "AWS", level: 75 },
-      { name: "CI/CD", level: 80 },
+      // { name: "CI/CD", level: 80 },
       { name: "Kubernetes", level: 65 },
     ],
   },
